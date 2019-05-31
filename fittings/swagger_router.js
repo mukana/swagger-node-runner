@@ -82,10 +82,6 @@ module.exports = function create(fittingDef, bagpipes) {
     if (controller) {
 
       var operationId = operation.definition.operationId || context.request.method.toLowerCase();
-      var ctrlType = 
-            operation.definition['x-controller-type'] ||
-            operation.pathObject.definition['x-controller-type'] ||
-            operation.pathObject.api.definition['x-controller-type'];
           
       var controllerFunction = controller[operationId];
 
