@@ -31,7 +31,7 @@
     "multer": "^1.0.6",
     "parseurl": "^1.3.0",
     "qs": "^6.4.0",
-    "sway": "https://github.com/mukana-lahtelat/sway.git",
+    "sway": "git+https://git.mukana.info/public-libraries/sway.git",
     "type-is": "^1.6.9"
   },
   "devDependencies": {
