@@ -45,7 +45,7 @@
     "restify": "^5.2.0",
     "should": "^7.1.0",
     "sinon": "^1.17.2",
-    "supertest": "^1.1.0"
+    "supertest": "^6.3.3"
   },
   "scripts": {
     "test": "node_modules/mocha/bin/_mocha -u exports -R spec test test/lib test/fittings",
